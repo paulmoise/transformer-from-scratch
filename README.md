@@ -1,4 +1,4 @@
-# 🔤 Transformer from Scratch: English to French Translation
+# Transformer from Scratch: English to French Translation
 
 This project implements the **Transformer architecture from scratch** in Python, inspired by the YouTube tutorial [Implementing Transformers From Scratch | NLP Course](https://www.youtube.com/watch?v=ISNdQcPhsts) by *Aladdin Persson*.
 
@@ -6,7 +6,7 @@ In the original video, the model is trained for English-to-Italian translation. 
 
 ---
 
-## 🧪 Features
+## Features
 
 - Transformer model (encoder-decoder) implemented from scratch (no Hugging Face, no PyTorch modules)
 - Trained on a small English-French dataset
@@ -15,7 +15,7 @@ In the original video, the model is trained for English-to-Italian translation. 
 
 ---
 
-## 🔧 Installation (with `uv`)
+## Installation (with `uv`)
 
 1. Install `uv` if not already installed:
 
@@ -39,9 +39,9 @@ uv pip install torch torchvision
 
 ---
 
-## 📚 Usage
+## Usage
 
-### 🔁 Training
+### Training
 
 ```bash
 python train.py
@@ -49,7 +49,7 @@ python train.py
 
 This will train the Transformer model on your English-French dataset. You can customize hyperparameters inside `config.py` (if available) or directly in the script.
 
-### 🧠 Inference
+### Inference
 
 After training:
 
@@ -67,7 +67,7 @@ Note: Output might vary depending on your training data and number of epochs.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 .
